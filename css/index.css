@@ -107,7 +107,7 @@ section .text-header {
 
 .arrow-down {
     position: absolute;
-    bottom: 0;
+    bottom: 5%;
     left: 47%;
     width: 6%;
 }
