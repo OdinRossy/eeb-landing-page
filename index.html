@@ -23,22 +23,48 @@
 <body>
 
 <!--Navbar-->
-<!-- Just an image -->
-<nav class="navbar navbar-light bg-light shadow">
-    <a class="navbar-brand" href="#">
-        <img src="/docs/4.3/assets/brand/bootstrap-solid.svg" width="30" height="30" alt="">
-    </a>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">ЭЭБ</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link" href="#main"> Главная <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <span class="nav-link"> ● </span>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#about"> О Специальности</a>
+            </li>
+            <li class="nav-item">
+                <span class="nav-link"> ● </span>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#opportunities"> Возможности</a>
+            </li>
+            <li class="nav-item">
+                <span class="nav-link"> ● </span>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#form"> Подать заявку</a>
+            </li>
+        </ul>
+    </div>
 </nav>
 
 <!--Header-->
 <header>
 
-    <section class="bg-library section-100">
+    <section id="main" class="bg-library section-100">
         <div class="row">
             <div class="col-1"></div>
             <div class="col-5">
                 <div class="text-header text-light font-weight-bold">
-                    <b>Экономика Электронного Бизнеса</b>
+                    <span>Экономика Электронного Бизнеса</span>
                 </div>
             </div>
             <div class="col-5">
@@ -70,7 +96,7 @@
                     Почему экономика электронного бизнеса?
                 </div>
                 <div class="font-1-2 padding-t-10">
-                    <p><b>Экономика электронного бизнеса</b> – уникальная специальность, основными
+                    <p><span>Экономика электронного бизнеса</span> – уникальная специальность, основными
                         направлениями
                         которой
                         являются использование электронных
@@ -92,7 +118,7 @@
             </div>
             <div class="col-5">
                 <div class="font-1-2">
-                    <b class="font-2">Общая информация:</b>
+                    <span class="font-2">Общая информация:</span>
                     <ul>
                         <li>Факультет: инженерно-экономический факультет</li>
                         <li>Кафедра: менеджмента</li>
@@ -260,7 +286,6 @@
 </section>
 
 
-
 <section class="section-100 padding-20 bg-black" id="opportunities">
     <div class="container-fluid">
         <div>
@@ -268,8 +293,8 @@
                 <div class="col-1"></div>
                 <div class="col-10">
 
-                    <div class="font-5 text-center">
-                        <b>Наши возможности</b>
+                    <div class="text-header">
+                        <span>Наши возможности</span>
                     </div>
 
                     <div class="padding-t-10">
@@ -285,17 +310,85 @@
                 <div class="col-1"></div>
                 <div class="col-8">
                     <div class="padding-10">
-                        <div class="font-1-2">
+                        <div class="">
                             <h1>После окончания обучения выпускники первоначально могут
                                 занимать следующие должности:</h1>
                             <ul>
-                                <li>Бизнес-аналитик</li>
-                                <li>Администратор баз данных</li>
-                                <li>Системный аналитик</li>
-                                <li>Программист</li>
-                                <li>Экономист</li>
-                                <li>Экономист вычислительного (информационно-вычислительного) центра</li>
-                                <li>Экономист по финансовой работе</li>
+                                <li>
+                                    <h3>Бизнес-аналитик</h3>
+                                    <p class="color-light-gray">
+                                        — специалист, использующий методы бизнес-анализа для
+                                        исследования потребностей деятельности организаций с целью определения проблем
+                                        бизнеса и предложения их решения.
+
+                                        Международный Институт Бизнес-Анализа (IIBA, International Institute of Business
+                                        Analysis) определяет бизнес-аналитика «как посредника между заинтересованными
+                                        лицами
+                                        для сбора, анализа, коммуницирования и проверки требований по изменению
+                                        бизнес-процессов, регламентов и информационных систем. Бизнес-аналитик понимает
+                                        проблемы и возможности бизнеса в контексте требований и рекомендует решения,
+                                        позволяющие организации достичь своих целей».
+
+                                        В консалтинговом бизнесе бизнес-аналитиком называется высшая позиция для
+                                        консультанта.
+                                    </p>
+                                </li>
+
+                                <li>
+                                    <h3>Администратор баз данных</h3>
+                                    <p class="color-light-gray">
+                                        — лицо, отвечающее за выработку требований к базе данных, её проектирование,
+                                        реализацию, эффективное использование и сопровождение, включая управление
+                                        учётными записями пользователей БД и защиту от несанкционированного доступа. Не
+                                        менее важной функцией администратора БД является поддержка целостности базы
+                                        данных.
+                                    </p>
+                                </li>
+                                <li>
+                                    <h3>
+                                        Системный аналитик
+                                    </h3>
+                                    <p class="color-light-gray">
+                                        — специалист по решению сложных организационно-технических
+                                        проблем, имеющих междисциплинарную природу, использующий принципы общей теории
+                                        систем и методы системного анализа.
+
+                                        В узком смысле в сфере информационных технологий данный термин используется для
+                                        обозначения профессиональной роли и профессии, ответственной за анализ
+                                        потребностей пользователей на предмет возможности их удовлетворения посредством
+                                        функций соответствующей информационной системы. Также его называют «постановщик
+                                        задач».
+                                    </p>
+                                </li>
+                                <li>
+                                    <h3>Программист</h3>
+                                    <p class="color-light-gray">
+                                        специалист, занимающийся непосредственной разработкой программного обеспечения
+                                        для различного рода вычислительно-операционных систем.
+                                    </p>
+                                </li>
+                                <li>
+                                    <h3>Экономист</h3>
+                                    <p class="color-light-gray">
+                                        специалист в области экономики, эксперт по экономическим вопросам.
+
+                                        Экономистами называют как учёных (то есть специалистов в области экономической
+                                        науки), так и практиков, которые работают в области исследования, планирования и
+                                        руководства хозяйственной деятельностью.
+                                    </p>
+                                </li>
+                                <li>
+                                    <h3>Экономист вычислительного (информационно-вычислительного) центра</h3>
+                                    <p class="color-light-gray">
+
+                                    </p>
+                                </li>
+                                <li>
+                                    <h3>Экономист по финансовой работе</h3>
+                                    <p class="color-light-gray">
+
+                                    </p>
+                                </li>
                             </ul>
                         </div>
 
@@ -331,35 +424,165 @@
     </div>
 </section>
 
-
-<!--Contacts-->
-<section class="section-100 " id="contacts">
+<!--Form-->
+<section class="section-100" id="form">
     <div class="container-fluid">
         <div class="row">
             <div class="col-1"></div>
-            <div class="col-10">
+            <div class="col-10 bg-light rounded shadow border">
                 <div class="padding-20">
-                    <div class="font-5 text-center">
-                        <b>Контакты</b>
+                    <div class="text-header text-center">
+                        <span>Подать заявку</span>
                     </div>
-                    Деканат ИЭФ
-
-                    г. Минск, ул. Платонова, 39, каб. 907
-
-                    + 375 17 293-22-88 dekief@bsuir.by
-
-                    Кафедра менеджмента
-
-                    г. Минск, ул. Платонова, 39, каб. 807б +375-17-293-88-26
-
-                    Приемная комиссия
-
-                    + 375 17 293 88 15
+                    <div class="container-fluid padding-t-10">
+                        <div class="row" style="padding: 0 5vw">
+                            <div class="col-4">
+                                <div class="card" style="width: 100%;">
+                                    <img src="https://images.unsplash.com/photo-1477238134895-98438ad85c30?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
+                                         class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">
+                                            Деканат ИЭФ
+                                        </h5>
+                                        <p class="card-text">
+                                            г. Минск, ул. Платонова, 39, каб. 907
+                                            <br><a href="tel:+375172932288">+375 17 293-22-88</a>
+                                            <a href="mailto:dekief@bsuir.by">dekief@bsuir.by</a>
+                                        </p>
+                                        <a href="#" class="btn btn-primary width-100">Перейти</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="card" style="width: 100%;">
+                                    <img src="https://images.unsplash.com/photo-1517673132405-a56a62b18caf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1356&q=80"
+                                         class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">
+                                            Кафедра менеджмента
+                                        </h5>
+                                        <p class="card-text">
+                                            г. Минск, ул. Платонова, 39, каб. 907
+                                            <br><a href="tel:+375172938826">+375-17-293-88-26</a>
+                                            <!--                                            <br><a href="mailto:dekief@bsuir.by">dekief@bsuir.by</a>-->
+                                        </p>
+                                        <a href="#" class="btn btn-primary width-100">Перейти</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="card" style="width: 100%;">
+                                    <img src="https://images.unsplash.com/photo-1524646432175-d58115a8a854?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
+                                         class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">
+                                            Приемная комиссия
+                                        </h5>
+                                        <p class="card-text">
+                                            г. Минск, ул. Платонова, 39, каб. 907
+                                            <br><a href="tel:+375172938815">+ 375-17-293-88-15</a>
+                                            <!--                                            <br><a href="mailto:dekief@bsuir.by">dekief@bsuir.by</a>-->
+                                        </p>
+                                        <a href="#" class="btn btn-primary width-100">Перейти</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="col-1"></div>
         </div>
+
     </div>
+
+</section>
+
+
+<!--&lt;!&ndash;Contacts&ndash;&gt;-->
+<!--<section class="section-100" id="contacts" style="margin: 20vh 0">-->
+<!--    <div class="container-fluid">-->
+<!--        <div class="row">-->
+<!--            <div class="col-1"></div>-->
+<!--            <div class="col-10 bg-light rounded shadow border">-->
+<!--                <div class="padding-20">-->
+<!--                    <div class="text-header text-center">-->
+<!--                        <span>Контакты</span>-->
+<!--                    </div>-->
+<!--                    <div class="container-fluid padding-t-10">-->
+<!--                        <div class="row" style="padding: 0 5vw">-->
+<!--                            <div class="col-4">-->
+<!--                                <div class="card" style="width: 100%;">-->
+<!--                                    <img src="https://images.unsplash.com/photo-1477238134895-98438ad85c30?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"-->
+<!--                                         class="card-img-top" alt="...">-->
+<!--                                    <div class="card-body">-->
+<!--                                        <h5 class="card-title">-->
+<!--                                            Деканат ИЭФ-->
+<!--                                        </h5>-->
+<!--                                        <p class="card-text">-->
+<!--                                            г. Минск, ул. Платонова, 39, каб. 907-->
+<!--                                            <br><a href="tel:+375172932288">+375 17 293-22-88</a>-->
+<!--                                            <a href="mailto:dekief@bsuir.by">dekief@bsuir.by</a>-->
+<!--                                        </p>-->
+<!--                                        <a href="#" class="btn btn-primary width-100">Перейти</a>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                            <div class="col-4">-->
+<!--                                <div class="card" style="width: 100%;">-->
+<!--                                    <img src="https://images.unsplash.com/photo-1517673132405-a56a62b18caf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1356&q=80"-->
+<!--                                         class="card-img-top" alt="...">-->
+<!--                                    <div class="card-body">-->
+<!--                                        <h5 class="card-title">-->
+<!--                                            Кафедра менеджмента-->
+<!--                                        </h5>-->
+<!--                                        <p class="card-text">-->
+<!--                                            г. Минск, ул. Платонова, 39, каб. 907-->
+<!--                                            <br><a href="tel:+375172938826">+375-17-293-88-26</a>-->
+<!--                                            &lt;!&ndash;                                            <br><a href="mailto:dekief@bsuir.by">dekief@bsuir.by</a>&ndash;&gt;-->
+<!--                                        </p>-->
+<!--                                        <a href="#" class="btn btn-primary width-100">Перейти</a>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                            <div class="col-4">-->
+<!--                                <div class="card" style="width: 100%;">-->
+<!--                                    <img src="https://images.unsplash.com/photo-1524646432175-d58115a8a854?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"-->
+<!--                                         class="card-img-top" alt="...">-->
+<!--                                    <div class="card-body">-->
+<!--                                        <h5 class="card-title">-->
+<!--                                            Приемная комиссия-->
+<!--                                        </h5>-->
+<!--                                        <p class="card-text">-->
+<!--                                            г. Минск, ул. Платонова, 39, каб. 907-->
+<!--                                            <br><a href="tel:+375172938815">+ 375-17-293-88-15</a>-->
+<!--                                            &lt;!&ndash;                                            <br><a href="mailto:dekief@bsuir.by">dekief@bsuir.by</a>&ndash;&gt;-->
+<!--                                        </p>-->
+<!--                                        <a href="#" class="btn btn-primary width-100">Перейти</a>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                    &lt;!&ndash;                    Деканат ИЭФ&ndash;&gt;-->
+
+<!--                    &lt;!&ndash;                    г. Минск, ул. Платонова, 39, каб. 907&ndash;&gt;-->
+
+<!--                    &lt;!&ndash;                    + 375 17 293-22-88 dekief@bsuir.by&ndash;&gt;-->
+
+<!--                    &lt;!&ndash;                    Кафедра менеджмента&ndash;&gt;-->
+
+<!--                    &lt;!&ndash;                    г. Минск, ул. Платонова, 39, каб. 807б +375-17-293-88-26&ndash;&gt;-->
+
+<!--                    &lt;!&ndash;                    Приемная комиссия&ndash;&gt;-->
+
+<!--                    &lt;!&ndash;                    + 375 17 293 88 15&ndash;&gt;-->
+<!--                </div>-->
+<!--            </div>-->
+<!--            <div class="col-1"></div>-->
+<!--        </div>-->
+
+<!--    </div>-->
 
 </section>
 

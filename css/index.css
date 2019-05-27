@@ -120,3 +120,11 @@ section .text-header {
     background-image: url("../assets/wave-2.png");
     background-repeat: no-repeat;
 }
+
+.color-light-gray {
+    color: lightgray;
+}
+
+.width-100 {
+    width: 100%;
+}
