@@ -11,6 +11,10 @@ nav a {
     font-weight: bold;
 }
 
+a {
+    color: #fafafa;
+}
+
 .nav-transparent {
     background: #333333;
 }
@@ -56,6 +60,12 @@ section .text-header {
 }
 
 .btn-rounded {
+    color: #fafafa !important;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+.rounded-max {
     border-radius: 100px;
 }
 
