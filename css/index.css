@@ -7,6 +7,21 @@ body {
     line-height: 2;
 }
 
+nav a {
+    font-weight: bold;
+}
+
+.nav-transparent {
+    background: #333333;
+}
+
+.text-header {
+    line-height: 1.2;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    font-weight: bolder;
+    /*font-size: 20rem;*/
+}
+
 .section-100 {
     min-height: 100vh;
     min-width: 100vw;
@@ -20,6 +35,7 @@ body {
 
 .bg-library {
     background: url("../assets/bg-library.png");
+    background-size: cover;
 }
 
 .bg-black {
@@ -45,10 +61,6 @@ body {
 
 .pointer {
     cursor: pointer;
-}
-
-.header-title {
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .font-5 {
