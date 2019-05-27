@@ -259,3 +259,10 @@ section .text-header {
         border-left: solid 1px rgba(255, 255, 255, 0.10);
     }
 }
+
+.bg-orange {
+    background: #F2994A;
+}
+.text-orange {
+    color: #F2994A !important;
+}
