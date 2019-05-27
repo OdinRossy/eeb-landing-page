@@ -3,7 +3,7 @@
 }
 
 body {
-    font-family: sans-serif;
+    font-family: 'Roboto', sans-serif;
     line-height: 2;
 }
 
@@ -19,7 +19,14 @@ nav a {
     line-height: 1.2;
     text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
     font-weight: bolder;
-    /*font-size: 20rem;*/
+    font-size: 7rem;
+}
+
+section .text-header {
+    line-height: 1.2;
+    text-shadow: none;
+    font-weight: bolder;
+    font-size: 5rem;
 }
 
 .section-100 {
@@ -92,4 +99,24 @@ nav a {
     bottom: 0;
     left: 47%;
     width: 6%;
+}
+.padding-20 {
+    padding: 20vh 0;
+}
+
+.padding-10 {
+    padding: 10vh 0;
+}
+
+.padding-t-10 {
+    padding-top: 10vh;
+}
+
+.padding-t-20 {
+    padding-top: 20vh;
+}
+
+#companies {
+    background-image: url("../assets/wave-2.png");
+    background-repeat: no-repeat;
 }
